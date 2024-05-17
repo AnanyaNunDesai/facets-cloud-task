@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: rgb(208, 183, 252);
+}
+
+.password-title {
+  font-size: 5vw;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+}
+
+.password-page {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+}
+
+.pass-length-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.length-input {
+  outline: none;
+  background-color: rgb(221, 199, 255);
+  border: 1px solid #6200ff;
+  border-radius: 5px;
+  text-align: center;
+  transition: border 0.2s ease-in-out;
+}
+
+.length-input:hover {
+  border: 1px solid #a268ee;
+  transition-duration: 0.2s;
+}
+
+.chars-option-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.generate-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6600ff;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  width: 75px;
+  height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.generate-button:hover {
+  background-color: #8400ff;
+  transition-duration: 0.2s;
+}
+
+.generate-button:active {
+  background-color: #3333ff;
+}
+
+.generate-button:disabled {
+  background-color: #dddddd;
+}
+
+.password {
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  
+}
+
+.password-text {
+  overflow-wrap: anywhere;
+  max-width: 380px;
+  padding: 3px;
+  border: 1px solid #6200ff;
+  border-radius: 4px;
+  background-color: rgb(221, 199, 255);
+}
